@@ -30,18 +30,21 @@ function App() {
           displayName="HTML"
           value={html}
           onChange={setHtml}
+          colorName="#FF0000"
         />
         <Editor
           language="css"
           displayName="CSS"
           value={css}
           onChange={setCss}
+          colorName="#03fce3"
         />
         <Editor
           language="javascript"
           displayName="JS"
           value={js}
           onChange={setJs}
+          colorName="#f0db4f"
         />
       </div>
       <div className="pane">
